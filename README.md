@@ -1,8 +1,5 @@
 # Telegram Bot <img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python 3.7+"/>
 
-<p align="center">
-  <img src="https://via.placeholder.com/500x200?text=Telegram+Bot+Preview" alt="Project logo" style="border-radius:8px;"/>
-</p>
 
 ## :zap: Описание
 Данный Telegram-бот, созданный на базе **PyTelegramBotAPI** и **SQLAlchemy**, позволяет:
@@ -18,9 +15,6 @@
 3. **Гибкая работа с базой данных** (SQLite + SQLAlchemy)  
 4. **Простая расширяемость функционала**
 
-<p align="center">
-  <img src="https://via.placeholder.com/400x200?text=Animated+Demo" alt="Demo GIF" />
-</p>
 
 ---
 
@@ -86,5 +80,3 @@ screen -r bot_session
 # Используемые технологии
 - PyTelegramBotAPI – взаимодействие с Telegram Bot API.
 - SQLAlchemy – работа с базой данных SQLite.
-
-<p align="center"> <img src="https://via.placeholder.com/700x150?text=Technologies+Preview" alt="Technologies Preview" /> </p>
