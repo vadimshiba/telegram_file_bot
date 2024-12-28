@@ -35,17 +35,24 @@ cd <папка_проекта>
 ### Шаг 2: Настройка виртуального окружения
 
 # Создайте виртуальное окружение
+```
 python3 -m venv venv
+```
 
 # Активируйте виртуальное окружение (Linux/MacOS)
+```
 source venv/bin/activate
+```
 
 # Или для Windows
+```
 venv\Scripts\activate
+```
 
 # Установите зависимости
+```
 pip install -r requirements.txt
-
+```
 
 ### Шаг 3: Настройка конфигурации
 # Откройте файл config.py и заполните параметры:
@@ -59,17 +66,22 @@ CAPTCHA_CHAT_ID = ваш_id_чата  # ID чата для капчи
 ### Шаг 4: Запуск бота
 
 # Создайте сессию screen
+```
 screen -S bot_session
+```
 
 # Запустите бота
+```
 python bot.py
+```
 
 # Выйдите из сессии screen
 Ctrl+A, затем D
 
 # Чтобы вернуться к сессии:
-
+```
 screen -r bot_session
+```
 
 # Используемые технологии
 - PyTelegramBotAPI – взаимодействие с Telegram Bot API.
